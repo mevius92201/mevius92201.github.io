@@ -1,0 +1,87 @@
+<div>
+    <div style="background-color: gray">
+        testing
+        testing
+        testing
+        <p>hello <strong>la</strong></p>
+        <p> test br <br> test test br</p>
+        <p>test<i>em</i></p>
+        <p>test<em>em</em></p>
+        <p>test<b>bold</b></p>
+        <p>test<strong>bold</strong></p>
+        <p>test<s>strike</s></p>
+        <p>test<del>strike</del></p>
+        <P>test<u>underline</u></P>
+        <p>test<mark>mark</mark></p>
+        <p>
+            <span style="color: aquamarine; font-size: x-large ;">test</span>
+            <span stlye="font-weight: 100; color: white">test1</span>
+        </p>
+        <p>test span</p><p>testing span</p>
+        <p>
+            <h1>title</h1>cdddffecccecc
+        </p>
+</div>
+<div>
+    <div style="margin: 400px; 
+                height: 400px; 
+                background-color: aqua; 
+                width: 400px; 
+                position: absolute;
+                top: 15px;
+                right: 10px;
+                border-width: 10px;
+                border-style: dashed;
+                border-color: green blue; 
+                border-radius: 20px;
+                background-image: url(https://dlgarenanow-a.akamaihd.net/mgames/kgtw/events/discotem/202304Violet/mainpage/mainpage-bg.jpg);
+                background-size: contain;
+                background-position: center"
+
+                >section 1
+</div> 
+<div>
+    <div style="margin:10px; 
+                height: 100px; 
+                width: 300px; 
+                background-color: purple;
+                position: absolute;
+                top: 150px;
+                left: 10px"
+                >section2
+</div>
+  
+<div>
+     <div class="xyz" style="
+                 position: relative;
+                 background-image: url(https://secure-images.nike.com/is/image/DotCom/FN1583_095_A_PREM?$SNKRS_COVER_WD$&align=0,1)
+                ">section3</div>
+    <div class="xyz" style="
+                background-image: url(https://secure-images.nike.com/is/image/DotCom/414571_160_A_PREM?$SNKRS_COVER_WD$&align=0,1);
+                ">section4</div>
+</div>         
+<div>
+    <div id="abc" style=
+            "background-image: url(https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/4107358f-c78e-4e23-ac4e-a436088b554d/aaf88-x-billie-black-and-white-dz6763-102-%E7%99%BC%E5%94%AE%E6%97%A5%E6%9C%9F.jpg)"
+            >section5</div>
+    <div class="xyz" style=
+            "background-image: url(https://secure-images.nike.com/is/image/DotCom/FN7773_001_A_PREM?$SNKRS_COVER_WD$&align=0,1)"
+            >section6</div>          
+</div>
+<div>
+    <div class="box">box1</div>
+    <div class="box" style="border-width: 10px">box2</div>
+    <div class="box" style="border-width: 20px; box-sizing: border-box">box3</div>
+    <div class="box" style="border-width: 20px; box-sizing: content-box">box4</div>
+    <!--border box includes to border-->
+</div>
+<div>
+<form>
+    <input type = "text" name = "cool" class = "test" id = "qaz">
+    <label for = "qaz">try it now</label>
+    <!--label for needs to match id-->
+</form>
+</div>
+<div>
+    <div class="box" style="border-width: 10px" box sizing="border-box">box5</div>
+</div>

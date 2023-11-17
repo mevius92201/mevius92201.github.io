@@ -1,0 +1,256 @@
+
+body {
+    margin: 0px;
+  }
+
+.head{
+    height: 2vw;
+    width: 100vw;
+    background: #000000;
+    border: gray solid;
+    border-width: 0.4px 0px 0.4px 0px;
+    border-color: #c0c0c0;
+}
+.back{
+    font-size: 12px;
+    font-weight: 450;
+    position: absolute;
+    left: 1vw;
+    color: rgb(211, 209, 209);
+    font-family: sans-serif;
+    background: transparent;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    margin:10px;
+}
+.login{
+    font-size: 12px;
+    font-weight: 450;
+    position: absolute;
+    right: 150px;
+    color: rgb(211, 209, 209);
+    font-family: sans-serif;
+    background: transparent;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin: 10px 50px;
+}
+.info{
+    font-size: 12px;
+    font-weight: 450;
+    position: absolute;
+    right: 105px;
+    color: rgb(211, 209, 209);
+    font-family: sans-serif;
+    background: transparent;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin: 10px 50px;
+}
+.cart{
+    background-image: url('../image/shopping_cart.png');
+    position: absolute;
+    right: 85px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 10px 30px;
+    width:18px;
+    height:18px;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+.location{
+    background-image: url('../image/location.png');
+    position: absolute;
+    right: 58px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin: 10px 10px;
+    width:20px;
+    height:23px;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-display: right;
+}
+
+.navbar{
+    width: 100vw;
+    height: 3vw;
+    text-align: left;
+    box-sizing: content-box;
+    border: gray solid;
+    border-width: 0px 0px 0.4px 0px;
+    border-color: #c0c0c0;
+}
+
+.nav_list{
+    width: 100vw;
+    height: 3vw;
+    display: flex;
+    position:flex;
+    margin: 0px;
+    padding: 0px;
+    background: #000000;
+    border: gray solid;
+    border-width: 0px 0px 0.4px 0px;
+    border-color: #c0c0c0;
+    justify-content: center; 
+}
+.SNKRS{
+    background-image: url('../image/SNKRS.jpeg');
+    position: absolute;
+    left: 1.5vw;
+    margin: 0.1vw 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    width: 4vw;
+    height: 2.5vw;
+    padding: 0px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    padding: 17px 15px;
+    border-bottom: 3px solid transparent;
+}
+.menu_list_h:hover{
+    border-bottom: 0.105vw solid rgb(255, 255, 255);
+    color: white;
+  }
+
+nav > ul{
+    list-style: none; 
+}
+.menu_list_h{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-bottom: 0.95vw;
+}    
+    
+.navbar a.active{
+    border-bottom: 0.12vw solid rgb(255, 255, 255);
+    color: white;
+  }
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100vw;
+    background-color: black;
+    font-size: 12px;
+    z-index: -1;
+}
+.box{
+    display: flex;
+    height: 44vw;
+    width: 40vw;
+    background-color: black;
+    
+}
+.cnt{
+    height: 36vw;
+    width: 40vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(.87);
+    
+}
+.cnt:hover{
+    filter: brightness(1);
+    transition: 0.25s;
+    cursor: pointer;
+}
+.cnt:focus{
+    background-blend-mode: darken;
+}
+.month{
+    font-size: 18px;
+    font-weight: 450;
+    position: absolute;
+    left: 2vw;
+    font-family: sans-serif;
+
+}
+.date{
+    font-size: xx-large;
+    font-weight: 450;
+    position: absolute;
+    left:1vw;
+    top:0.5vw;
+    font-family: sans-serif;
+    
+}
+.shoe_category{
+    height:20px;
+    width: 30vw;
+    font-size: medium;
+    font-weight: 450;
+    position: relative;
+    text-align: center;
+    bottom: -104%;
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    
+}
+.shoe_name{
+    font-size: x-large;
+    font-weight: 450;
+    position: relative;
+    width: 30vw;
+    bottom: -105%;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+  .btm{
+    background-color: #E0E6F1;
+    height: 300px;
+  }
+.banner p{
+    text-align: center;
+    margin:0;
+
+  }
+.cnt:nth-child(3n+1){
+    margin-left: 0.1vw;
+  }
+.cnt:nth-child(3n){
+    margin-right: 0.9vw;
+  }  
+  @media only screen and (min-width: 960px){
+.main{
+    width: 100vw;
+    margin: 0vw;
+    }
+.box{
+    width: 30vw;
+    height: 42vw;
+    margin: 3vmin 1.6vw 0px 1.6vw;
+    }
+  }

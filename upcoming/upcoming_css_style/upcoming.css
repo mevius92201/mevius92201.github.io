@@ -52,7 +52,7 @@ body {
 
 }
 .cart{
-    background-image: url('../image/shopping_cart.png');
+    background-image: url('../upcoming_image/shopping_cart.png');
     right: 85px;
     margin: 10px 30px;
     width:18px;
@@ -60,7 +60,7 @@ body {
     background-color: white;
 }
 .location{
-    background-image: url('../image/location.png');
+    background-image: url('../upcoming_image/location.png');
     right: 58px;
     margin: 10px 10px;
     width:20px;
@@ -101,7 +101,7 @@ body {
     justify-content: center; 
 }
 .SNKRS{
-    background-image: url('../image/SNKRS.jpeg');
+    background-image: url('../upcoming_image/SNKRS.jpeg');
     position: absolute;
     left: 1.5vw;
     margin: 0.1vw 0px 0px 0px;
@@ -184,7 +184,8 @@ nav > ul{
     font-size: 20px;
     font-weight: 500;
     position: absolute;
-    left: 2vw;
+    text-align:center;
+     
     font-family: sans-serif;
 
 }
@@ -288,7 +289,7 @@ nav > ul{
     
 }
 .twitter{
-    background-image: url('../image/twitter_icon.png');
+    background-image: url('../upcoming_image/twitter_icon.png');
     border: none;
     cursor: pointer;
     margin: 10px 5px;
@@ -301,7 +302,7 @@ nav > ul{
     background-color: white;
 }
 .facebook{
-    background-image: url('../image/facebook_icon.png');
+    background-image: url('../upcoming_image/facebook_icon.png');
     border: none;
     cursor: pointer;
     margin: 6.5px 5px;
@@ -314,7 +315,7 @@ nav > ul{
     background-color: white;
 }
 .youtube{
-    background-image: url('../image/youtube_icon.png');
+    background-image: url('../upcoming_image/youtube_icon.png');
     border: none;
     cursor: pointer;
     margin: 10px 5px;
@@ -327,7 +328,7 @@ nav > ul{
     background-color: white;
 }
 .instagram{
-    background-image: url('../image/instagram_icon.png');
+    background-image: url('../upcoming_image/instagram_icon.png');
     border: none;
     cursor: pointer;
     margin: 10px 5px;
@@ -357,7 +358,7 @@ nav > ul{
     justify-content: flex-start;
 }
 .bottom_btn{
-    background-image: url('../image/location_bottom.png');
+    background-image: url('../upcoming_image/location_bottom.png');
     border: 0;
     height:0.8vw;
     width: 1.8vw;
